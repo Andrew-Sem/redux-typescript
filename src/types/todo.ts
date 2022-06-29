@@ -1,5 +1,6 @@
 export interface TodoState {
-    todos: [];
+    todos: any[];
+    page: number;
     loading: boolean;
     error: null | string;
     limit: number;
